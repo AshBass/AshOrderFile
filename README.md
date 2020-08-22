@@ -1,6 +1,12 @@
 # AshOrderFile
 为 Xcode 项目创建 orderfile 
 
+## 主工程设置 Build Settings
+
+```xcodeproj 
+Other C Flags : -fsanitize-coverage=func,trace-pc-guard
+```
+
 ## Podfile
 
 ```ruby
