@@ -4,10 +4,8 @@ def updateInstall(installer)
     updateInstallWithoutIgnore(installer, [])
 end
 
-def updateInstallWithoutIgnore(installer, ignore)
-    require 'pathname'
-    puts Pathname.new(__FILE__).realpath    
-
+def updateInstallWithoutIgnore(installer, ignore) 
+    
     name = 'AshOrderFile'
     ignore << name
 
