@@ -4,7 +4,8 @@
 ## 主工程设置 Build Settings
 
 ```xcodeproj 
-Other C Flags : -fsanitize-coverage=func,trace-pc-guard
+Other C Flags       :   -fsanitize-coverage=func,trace-pc-guard
+Other Swift Flags   :   -sanitize=undefined -sanitize-coverage=func
 ```
 
 ## Podfile
