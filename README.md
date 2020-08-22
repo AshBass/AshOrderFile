@@ -1,6 +1,8 @@
 # AshOrderFile
 为 Xcode 项目创建 orderfile 
 
+# 配置
+
 ## 主工程设置 Build Settings
 
 ```xcodeproj 
@@ -34,3 +36,8 @@ import AshOrderFile
 let filePath = NSTemporaryDirectory().appending("/OrderFile.order")
 AshOrderFile.exportOrderFile(filePath: filePath)
 ```
+
+# 使用
+
+1. 导出 OrderFile.order
+2. 主工程设置 Build Settings 中的 Order File 路径
